@@ -1,0 +1,38 @@
+Bom! 
+
+Meu plano original era começar a aprender a utilizaar o Burp Suite, porém para a minha surpresa ele não estava instalado no meu Kali.
+
+Então eu pensei "Simples! Eu aproveito e aprendo a instalar!" e aí começou a jornada de pesquisa.
+
+Entrei no site da PortSwigger (https://portswigger.net) e baixei a versão mais atual do Burp Suite Community.
+
+Descobri que precisava utilizar o comando:
+
+  chmod +x burpsuite_pro_linux_v2020_2_1.sh  (Com a versão atual)
+  
+Para Habilitar a execução do instalador Wizard no Linux antes de exucutá-lo, mas por algum motivo não funcionava.
+
+Nesse ponto que eu me senti meio perdido, porém o próprio fórum que segui como guia (https://forum.portswigger.net/thread/installation-in-kali-linux-112f4bf67)
+para a instalação me deu a resposta.
+
+Acontece que eu utilizava um kali no VirtualBox sem saber que era uma versão de 32 bits e o Burp Suite só está disponível para as versões de 64 bits. Hehe
+
+Então, mais uma vez eu pensei, "é só eu instalar o kali 64 bits como fiz com o 32", bem simples... até eu perceber que não lembrava como havia instalado do primeira vez kkkkk
+
+Mais uma vez fui a pesquisa e sendo algo bem simples, não tomou muito o meu tempo.
+
+Entrei no site https://www.kali.org/get-kali/ e selecionei a versão de Download da Virtual Box.
+
+Após o download, precisei apenas executar o arquivo, seguir o passo a passo de instalação da máquina e pronto, kali linux x64 instalado.
+
+Ah! Vale ressaltar que eu já possuia o Oracle Virtual Box instalado, se você quiser instalar o Linux, é necessário fazer o download dela também no link abaixo.
+
+https://www.virtualbox.org/wiki/Downloads
+
+Enfim, A versão 64 bits resolveu inclusive a falta do Burp Suite que dessa vez veio instalado por padrão.
+
+Então...
+
+Essa foi a minha missão do dia e meu primeiro relato aqui no GitHub.
+
+Foi legal!! xD
