@@ -1,0 +1,41 @@
+Hoje eu dei início ao estudo do Burp Suite de maneira básica.
+
+Estava meio sem tempo, então foquei minha atenção na teoria de como o programa funciona para não deixar o dia passar batido.
+
+Então vamos lá...
+
+Eu entendi o funcionamento do Burp Suite da seguinte maneira.
+
+Já ouviram falar dos Chasquis? No antigo Império Inca, eles eram corredores que tinham a missão de transportar mensagens ao longo de vários postos de cidade em cidade, correndo 
+pelas estradas do império.
+
+Então, se uma cidade precisasse se comunicar com outra, eles literalmente enviavam um cara correndo até a outra cidade ou um posto de revezamento no caminho.
+
+Agora imagine que você é um rei e o seu reino esteja em guerra com os Incas e planeja um grande ataque a uma de suas cidades e logicamente sabe que se ela pedir ajuda da cidade
+vizinha, seu exército enfrentará grandes dificuldades.
+
+Pensando nisso e sendo um Rei esperto como você, resolveu enviar um agente para subornar um dos carteiros da estrada entre as cidades Incas, possuindo agora um agente infiltrado 
+a seu favor.
+
+O carteiro basicamente recebe a mensagem de reforço por exemplo, mas antes de entregá-la a cidade vizinha, ele mostra a mensagem ao seu agente, expondo as informações da requisição
+de ajuda e permitindo que ele altere a mensagem da maneira que quiser para ganhar vantagem.
+
+Pois bem... O nome desse agente que intercepta a mensagem e pode alterá-la é Burp Suite.
+
+Então, transcrevendo esse cenário para a realidade, o Burp Suite pode capturar e manipular todo o tráfico entre um cliente e um servidor, e após capturar uma requisição,
+ele nos permite manipulá-la antes de reenviar para o servidor, como um agente infiltrado interceptando e alterando as mensagens entre duas partes.
+
+Também aprendi que a versão gratuita é dividido em 6 módulos que nos permitem realizar tarefas diferentes, sendo eles:
+
+1. Proxy, que nos permite interceptar e modificar as requisições.
+2. Repeater, que nos permite modificar uma requisição e reenviá-la multiplas vezes a um alvo.
+3. Intruder, que nos possibilta explorar vulnerabilidades com as requisições obtidas.
+4. Decoder, que como o nome também sugere pode decodificar e codificar diversos formatos de informação.
+5. Comparer, que nos permite comparar diferentes tipos de dados.
+6. Sequencer, que nos permite testar tokens gerados aleatoriamente, como alguns valores de cookies.
+
+Enfim, apesar de agora ter uma noção superficial de cada módulo, ainda não compreendo na prática a maioria deles.
+
+E essa é minha próxima missão, estudar e aprender melhor como cada um funciona na prática.
+
+Vai ser divertido! xD
